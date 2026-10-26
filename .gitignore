@@ -67,8 +67,8 @@ vcpkg_installed/
 Testing/
 .cache/
 
-# Arduino secrets file
+# Credentials
+secrets.h
 arduino_secrets.h
-
-# Playground
-playground/
+config.local.h
+.env
