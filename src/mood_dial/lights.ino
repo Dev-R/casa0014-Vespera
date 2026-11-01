@@ -36,9 +36,9 @@ void publishLights() {
     for (int s = 0; s < VOTES_PER; s++) {
       if (voteTime[m][s] != 0 && now - voteTime[m][s] < FADE_MS) {
         int led = m * 6 + slot;
-        RGBpayload[led * 3 + 0] = (byte)(c[0] * BRIGHT / 128);
-        RGBpayload[led * 3 + 1] = (byte)(c[1] * BRIGHT / 128);
-        RGBpayload[led * 3 + 2] = (byte)(c[2] * BRIGHT / 128);
+        RGBpayload[led * 3 + 0] = (byte)(c[0] * BRIGHT / 255);
+        RGBpayload[led * 3 + 1] = (byte)(c[1] * BRIGHT / 255);
+        RGBpayload[led * 3 + 2] = (byte)(c[2] * BRIGHT / 255);
         slot++;
       }
     }
