@@ -47,6 +47,6 @@ int applyHysteresis(int raw, int current) {
   if (current < 0) return binOf(raw);
   int lower = current * ADC_MAX / N_MOODS - HYST;
   int upper = (current + 1) * ADC_MAX / N_MOODS + HYST;
-  if (raw < lower || raw > upper) return binOf(raw);
+  if (raw < lower || raw >= upper) return binOf(raw);
   return current;
 }
