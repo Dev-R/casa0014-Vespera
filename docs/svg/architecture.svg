@@ -1,0 +1,377 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="630" viewBox="0 0 1400 630">
+    <defs>
+        <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7"
+            orient="auto">
+            <path d="M0 0 L10 5 L0 10 z" fill="#444" />
+        </marker>
+    </defs>
+    <rect x="0" y="0" width="1400" height="630" rx="0" fill="#ffffff" stroke="#ffffff"
+        stroke-width="1.2" />
+    <text x="20" y="40" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold"
+        fill="#222" text-anchor="start">System Diagram</text>
+    <rect x="20" y="62" width="150" height="548" rx="10" fill="none" stroke="#9a9a9a"
+        stroke-width="1.2" stroke-dasharray="6,5" />
+    <text x="34" y="84" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold"
+        fill="#555" text-anchor="start">1 Person</text>
+    <rect x="200" y="62" width="590" height="548" rx="10" fill="none" stroke="#9a9a9a"
+        stroke-width="1.2" stroke-dasharray="6,5" />
+    <text x="214" y="84" font-family="Arial, Helvetica, sans-serif" font-size="14"
+        font-weight="bold" fill="#555" text-anchor="start">2 Mood Dial (inside the box)</text>
+    <rect x="820" y="62" width="260" height="548" rx="10" fill="none" stroke="#9a9a9a"
+        stroke-width="1.2" stroke-dasharray="6,5" />
+    <text x="834" y="84" font-family="Arial, Helvetica, sans-serif" font-size="14"
+        font-weight="bold" fill="#555" text-anchor="start">3 Network</text>
+    <rect x="1110" y="62" width="280" height="548" rx="10" fill="none" stroke="#9a9a9a"
+        stroke-width="1.2" stroke-dasharray="6,5" />
+    <text x="1124" y="84" font-family="Arial, Helvetica, sans-serif" font-size="14"
+        font-weight="bold" fill="#555" text-anchor="start">4 Display</text>
+    <rect x="35" y="240" width="120" height="70" rx="8" fill="#F1EFE8" stroke="#5F5E5A"
+        stroke-width="1.2" />
+    <text x="95.0" y="264" font-family="Arial, Helvetica, sans-serif" font-size="15"
+        font-weight="bold" fill="#111" text-anchor="middle">Student</text>
+    <text x="95.0" y="283" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">picks a mood</text>
+    <rect x="225" y="115" width="170" height="85" rx="8" fill="#E9E7FB" stroke="#3C3489"
+        stroke-width="1.2" />
+    <text x="310.0" y="139" font-family="Arial, Helvetica, sans-serif" font-size="15"
+        font-weight="bold" fill="#111" text-anchor="middle">Potentiometer</text>
+    <text x="310.0" y="158" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">B5K, pin A1</text>
+    <text x="310.0" y="177" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">reads 0–4095</text>
+    <rect x="225" y="225" width="170" height="85" rx="8" fill="#E1F5EE" stroke="#085041"
+        stroke-width="1.2" />
+    <text x="310.0" y="249" font-family="Arial, Helvetica, sans-serif" font-size="15"
+        font-weight="bold" fill="#111" text-anchor="middle">Push button</text>
+    <text x="310.0" y="268" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">pin D4</text>
+    <text x="310.0" y="287" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">internal pull-up</text>
+    <rect x="225" y="425" width="170" height="95" rx="8" fill="#FCEFD6" stroke="#633806"
+        stroke-width="1.2" />
+    <text x="310.0" y="449" font-family="Arial, Helvetica, sans-serif" font-size="15"
+        font-weight="bold" fill="#111" text-anchor="middle">OLED (I2C)</text>
+    <text x="310.0" y="468" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">SDA 11, SCL 12</text>
+    <text x="310.0" y="487" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">shows the mood,</text>
+    <text x="310.0" y="506" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">then Saved / wait</text>
+    <rect x="430" y="100" width="340" height="400" rx="10" fill="#E6F1FB" stroke="#185FA5"
+        stroke-width="1.4" />
+    <text x="600" y="124" font-family="Arial, Helvetica, sans-serif" font-size="15"
+        font-weight="bold" fill="#0C447C" text-anchor="middle">Arduino MKR WiFi 1010</text>
+    <rect x="450" y="140" width="300" height="54" rx="6" fill="#ffffff" stroke="#85B7EB"
+        stroke-width="1.1" />
+    <text x="600" y="162" font-family="Arial, Helvetica, sans-serif" font-size="14"
+        font-weight="bold" fill="#0C447C" text-anchor="middle">dial.ino</text>
+    <text x="600" y="181" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">pot reading → mood (0–11)</text>
+    <rect x="450" y="210" width="300" height="54" rx="6" fill="#ffffff" stroke="#85B7EB"
+        stroke-width="1.1" />
+    <text x="600" y="232" font-family="Arial, Helvetica, sans-serif" font-size="14"
+        font-weight="bold" fill="#0C447C" text-anchor="middle">votes.ino</text>
+    <text x="600" y="251" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">6 slots per mood, fade 30 min</text>
+    <rect x="450" y="280" width="300" height="54" rx="6" fill="#ffffff" stroke="#85B7EB"
+        stroke-width="1.1" />
+    <text x="600" y="302" font-family="Arial, Helvetica, sans-serif" font-size="14"
+        font-weight="bold" fill="#0C447C" text-anchor="middle">lights.ino</text>
+    <text x="600" y="321" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">LED = mood × 6 + slot</text>
+    <rect x="450" y="350" width="300" height="54" rx="6" fill="#ffffff" stroke="#85B7EB"
+        stroke-width="1.1" />
+    <text x="600" y="372" font-family="Arial, Helvetica, sans-serif" font-size="14"
+        font-weight="bold" fill="#0C447C" text-anchor="middle">screen.ino</text>
+    <text x="600" y="391" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">text for the OLED</text>
+    <rect x="450" y="420" width="300" height="54" rx="6" fill="#ffffff" stroke="#85B7EB"
+        stroke-width="1.1" />
+    <text x="600" y="442" font-family="Arial, Helvetica, sans-serif" font-size="14"
+        font-weight="bold" fill="#0C447C" text-anchor="middle">connections.ino</text>
+    <text x="600" y="461" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">WiFi and MQTT link</text>
+    <path d="M600 194 L600 208" fill="none" stroke="#444" stroke-width="1.6" marker-end="url(#arr)" />
+    <path d="M600 264 L600 278" fill="none" stroke="#444" stroke-width="1.6" marker-end="url(#arr)" />
+    <path d="M155 258 L223 165" fill="none" stroke="#444" stroke-width="1.6" marker-end="url(#arr)" />
+    <rect x="170.0" y="201" width="38" height="18" rx="3" fill="#ffffff" stroke="#ffffff"
+        stroke-width="0" />
+    <text x="189" y="214" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#555" text-anchor="middle">turn</text>
+    <path d="M155 292 L223 270" fill="none" stroke="#444" stroke-width="1.6" marker-end="url(#arr)" />
+    <rect x="166.5" y="273" width="45" height="18" rx="3" fill="#ffffff" stroke="#ffffff"
+        stroke-width="0" />
+    <text x="189" y="286" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#555" text-anchor="middle">press</text>
+    <path d="M395 158 L448 166" fill="none" stroke="#444" stroke-width="1.6" marker-end="url(#arr)" />
+    <path d="M395 268 L448 236" fill="none" stroke="#444" stroke-width="1.6" marker-end="url(#arr)" />
+    <path d="M450 384 L397 465" fill="none" stroke="#444" stroke-width="1.6" marker-end="url(#arr)" />
+    <path d="M225 495 L95 495 L95 314" fill="none" stroke="#8a6a3a" stroke-width="1.4"
+        stroke-dasharray="5,4" marker-end="url(#arr)" />
+    <text x="35" y="520" font-family="Arial, Helvetica, sans-serif" font-size="12"
+        font-weight="normal" fill="#8a6a3a" text-anchor="start">sees their</text>
+    <text x="35" y="536" font-family="Arial, Helvetica, sans-serif" font-size="12"
+        font-weight="normal" fill="#8a6a3a" text-anchor="start">choice first</text>
+    <rect x="840" y="110" width="220" height="65" rx="8" fill="#F1EFE8" stroke="#5F5E5A"
+        stroke-width="1.2" />
+    <text x="950.0" y="134" font-family="Arial, Helvetica, sans-serif" font-size="15"
+        font-weight="bold" fill="#111" text-anchor="middle">Lab WiFi</text>
+    <text x="950.0" y="153" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">WiFiNINA</text>
+    <rect x="840" y="215" width="220" height="85" rx="8" fill="#EDEBE4" stroke="#444441"
+        stroke-width="1.2" />
+    <text x="950.0" y="239" font-family="Arial, Helvetica, sans-serif" font-size="15"
+        font-weight="bold" fill="#111" text-anchor="middle">MQTT broker</text>
+    <text x="950.0" y="258" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">mqtt.cetools.org</text>
+    <text x="950.0" y="277" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">port 1884</text>
+    <rect x="840" y="340" width="220" height="65" rx="8" fill="#F1EFE8" stroke="#5F5E5A"
+        stroke-width="1.2" />
+    <text x="950.0" y="364" font-family="Arial, Helvetica, sans-serif" font-size="15"
+        font-weight="bold" fill="#111" text-anchor="middle">Topic</text>
+    <text x="950.0" y="383" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">student/CASA0014/luminaire/20</text>
+    <path d="M950 175 L950 213" fill="none" stroke="#444" stroke-width="1.6" marker-end="url(#arr)" />
+    <path d="M950 300 L950 338" fill="none" stroke="#444" stroke-width="1.6" marker-end="url(#arr)" />
+    <path d="M750 312 L805 312 L805 142 L838 142" fill="none" stroke="#444" stroke-width="1.6"
+        marker-end="url(#arr)" />
+    <text x="801" y="228" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#555"
+        text-anchor="middle" transform="rotate(-90 801 228)">publish</text>
+    <text x="845" y="447" font-family="Arial, Helvetica, sans-serif" font-size="13"
+        font-weight="bold" fill="#333" text-anchor="start">Payload: 216 bytes</text>
+    <rect x="845" y="458" width="18" height="22" rx="2" fill="#F7C1C1" stroke="#888"
+        stroke-width="0.8" />
+    <text x="854" y="474" font-family="Arial, Helvetica, sans-serif" font-size="11"
+        font-weight="bold" fill="#333" text-anchor="middle">R</text>
+    <rect x="865" y="458" width="18" height="22" rx="2" fill="#C0DD97" stroke="#888"
+        stroke-width="0.8" />
+    <text x="874" y="474" font-family="Arial, Helvetica, sans-serif" font-size="11"
+        font-weight="bold" fill="#333" text-anchor="middle">G</text>
+    <rect x="885" y="458" width="18" height="22" rx="2" fill="#B5D4F4" stroke="#888"
+        stroke-width="0.8" />
+    <text x="894" y="474" font-family="Arial, Helvetica, sans-serif" font-size="11"
+        font-weight="bold" fill="#333" text-anchor="middle">B</text>
+    <rect x="905" y="458" width="18" height="22" rx="2" fill="#F7C1C1" stroke="#888"
+        stroke-width="0.8" />
+    <text x="914" y="474" font-family="Arial, Helvetica, sans-serif" font-size="11"
+        font-weight="bold" fill="#333" text-anchor="middle">R</text>
+    <rect x="925" y="458" width="18" height="22" rx="2" fill="#C0DD97" stroke="#888"
+        stroke-width="0.8" />
+    <text x="934" y="474" font-family="Arial, Helvetica, sans-serif" font-size="11"
+        font-weight="bold" fill="#333" text-anchor="middle">G</text>
+    <rect x="945" y="458" width="18" height="22" rx="2" fill="#B5D4F4" stroke="#888"
+        stroke-width="0.8" />
+    <text x="954" y="474" font-family="Arial, Helvetica, sans-serif" font-size="11"
+        font-weight="bold" fill="#333" text-anchor="middle">B</text>
+    <rect x="965" y="458" width="18" height="22" rx="2" fill="#F7C1C1" stroke="#888"
+        stroke-width="0.8" />
+    <text x="974" y="474" font-family="Arial, Helvetica, sans-serif" font-size="11"
+        font-weight="bold" fill="#333" text-anchor="middle">R</text>
+    <rect x="985" y="458" width="18" height="22" rx="2" fill="#C0DD97" stroke="#888"
+        stroke-width="0.8" />
+    <text x="994" y="474" font-family="Arial, Helvetica, sans-serif" font-size="11"
+        font-weight="bold" fill="#333" text-anchor="middle">G</text>
+    <rect x="1005" y="458" width="18" height="22" rx="2" fill="#B5D4F4" stroke="#888"
+        stroke-width="0.8" />
+    <text x="1014" y="474" font-family="Arial, Helvetica, sans-serif" font-size="11"
+        font-weight="bold" fill="#333" text-anchor="middle">B</text>
+    <text x="1030" y="474" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="start">… × 72</text>
+    <text x="853" y="498" font-family="Arial, Helvetica, sans-serif" font-size="11"
+        font-weight="normal" fill="#555" text-anchor="start">LED 0</text>
+    <text x="913" y="498" font-family="Arial, Helvetica, sans-serif" font-size="11"
+        font-weight="normal" fill="#555" text-anchor="start">LED 1</text>
+    <text x="973" y="498" font-family="Arial, Helvetica, sans-serif" font-size="11"
+        font-weight="normal" fill="#555" text-anchor="start">LED 2</text>
+    <text x="845" y="526" font-family="Arial, Helvetica, sans-serif" font-size="12"
+        font-weight="normal" fill="#333" text-anchor="start">3 bytes per LED, LED 0 first</text>
+    <text x="845" y="545" font-family="Arial, Helvetica, sans-serif" font-size="12"
+        font-weight="normal" fill="#333" text-anchor="start">sent only when something changes</text>
+    <text x="845" y="564" font-family="Arial, Helvetica, sans-serif" font-size="12"
+        font-weight="normal" fill="#333" text-anchor="start">the board publishes, never subscribes</text>
+    <rect x="1130" y="110" width="240" height="70" rx="8" fill="#2C2C2A" stroke="#2C2C2A"
+        stroke-width="1.2" />
+    <text x="1250" y="136" font-family="Arial, Helvetica, sans-serif" font-size="15"
+        font-weight="bold" fill="#ffffff" text-anchor="middle">Vespera dome</text>
+    <text x="1250" y="157" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#dddddd" text-anchor="middle">72 LEDs, 12 blades × 6</text>
+    <rect x="1130" y="198" width="240" height="60" rx="8" fill="#F1EFE8" stroke="#5F5E5A"
+        stroke-width="1.2" />
+    <text x="1250.0" y="222" font-family="Arial, Helvetica, sans-serif" font-size="15"
+        font-weight="bold" fill="#111" text-anchor="middle">Web viewer</text>
+    <text x="1250.0" y="241" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#333" text-anchor="middle">iot.io/projects/lumi</text>
+    <path d="M1060 372 L1095 372 L1095 145 L1128 145" fill="none" stroke="#444" stroke-width="1.6"
+        marker-end="url(#arr)" />
+    <path d="M1095 228 L1128 228" fill="none" stroke="#444" stroke-width="1.6"
+        marker-end="url(#arr)" />
+    <text x="1091" y="300" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#555"
+        text-anchor="middle" transform="rotate(-90 1091 300)">subscribe</text>
+    <rect x="1132" y="284" width="236" height="122" rx="4" fill="#1b1b1b" stroke="#1b1b1b"
+        stroke-width="1.2" />
+    <rect x="1138" y="290" width="15" height="15" rx="2" fill="#2E6FB7" stroke="#2E6FB7"
+        stroke-width="0.5" />
+    <rect x="1138" y="309" width="15" height="15" rx="2" fill="#2E6FB7" stroke="#2E6FB7"
+        stroke-width="0.5" />
+    <rect x="1138" y="328" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1138" y="347" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1138" y="366" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1138" y="385" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1157" y="290" width="15" height="15" rx="2" fill="#2E6FB7" stroke="#2E6FB7"
+        stroke-width="0.5" />
+    <rect x="1157" y="309" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1157" y="328" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1157" y="347" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1157" y="366" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1157" y="385" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1176" y="290" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1176" y="309" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1176" y="328" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1176" y="347" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1176" y="366" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1176" y="385" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1195" y="290" width="15" height="15" rx="2" fill="#D14B3C" stroke="#D14B3C"
+        stroke-width="0.5" />
+    <rect x="1195" y="309" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1195" y="328" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1195" y="347" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1195" y="366" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1195" y="385" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1214" y="290" width="15" height="15" rx="2" fill="#D14B3C" stroke="#D14B3C"
+        stroke-width="0.5" />
+    <rect x="1214" y="309" width="15" height="15" rx="2" fill="#D14B3C" stroke="#D14B3C"
+        stroke-width="0.5" />
+    <rect x="1214" y="328" width="15" height="15" rx="2" fill="#D14B3C" stroke="#D14B3C"
+        stroke-width="0.5" />
+    <rect x="1214" y="347" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1214" y="366" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1214" y="385" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1233" y="290" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1233" y="309" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1233" y="328" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1233" y="347" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1233" y="366" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1233" y="385" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1252" y="290" width="15" height="15" rx="2" fill="#E0A51E" stroke="#E0A51E"
+        stroke-width="0.5" />
+    <rect x="1252" y="309" width="15" height="15" rx="2" fill="#E0A51E" stroke="#E0A51E"
+        stroke-width="0.5" />
+    <rect x="1252" y="328" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1252" y="347" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1252" y="366" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1252" y="385" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1271" y="290" width="15" height="15" rx="2" fill="#E0A51E" stroke="#E0A51E"
+        stroke-width="0.5" />
+    <rect x="1271" y="309" width="15" height="15" rx="2" fill="#E0A51E" stroke="#E0A51E"
+        stroke-width="0.5" />
+    <rect x="1271" y="328" width="15" height="15" rx="2" fill="#E0A51E" stroke="#E0A51E"
+        stroke-width="0.5" />
+    <rect x="1271" y="347" width="15" height="15" rx="2" fill="#E0A51E" stroke="#E0A51E"
+        stroke-width="0.5" />
+    <rect x="1271" y="366" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1271" y="385" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1290" y="290" width="15" height="15" rx="2" fill="#E0A51E" stroke="#E0A51E"
+        stroke-width="0.5" />
+    <rect x="1290" y="309" width="15" height="15" rx="2" fill="#E0A51E" stroke="#E0A51E"
+        stroke-width="0.5" />
+    <rect x="1290" y="328" width="15" height="15" rx="2" fill="#E0A51E" stroke="#E0A51E"
+        stroke-width="0.5" />
+    <rect x="1290" y="347" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1290" y="366" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1290" y="385" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1309" y="290" width="15" height="15" rx="2" fill="#3FA860" stroke="#3FA860"
+        stroke-width="0.5" />
+    <rect x="1309" y="309" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1309" y="328" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1309" y="347" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1309" y="366" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1309" y="385" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1328" y="290" width="15" height="15" rx="2" fill="#3FA860" stroke="#3FA860"
+        stroke-width="0.5" />
+    <rect x="1328" y="309" width="15" height="15" rx="2" fill="#3FA860" stroke="#3FA860"
+        stroke-width="0.5" />
+    <rect x="1328" y="328" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1328" y="347" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1328" y="366" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1328" y="385" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1347" y="290" width="15" height="15" rx="2" fill="#3FA860" stroke="#3FA860"
+        stroke-width="0.5" />
+    <rect x="1347" y="309" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1347" y="328" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1347" y="347" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1347" y="366" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <rect x="1347" y="385" width="15" height="15" rx="2" fill="#3a3a3a" stroke="#3a3a3a"
+        stroke-width="0.5" />
+    <text x="1135" y="440" font-family="Arial, Helvetica, sans-serif" font-size="12"
+        font-weight="normal" fill="#333" text-anchor="start">columns: moods, Tired → Calm</text>
+    <text x="1135" y="458" font-family="Arial, Helvetica, sans-serif" font-size="12"
+        font-weight="normal" fill="#333" text-anchor="start">rows: votes, inner → outer</text>
+    <rect x="1135" y="479" width="13" height="13" rx="2" fill="#2E6FB7" stroke="#2E6FB7"
+        stroke-width="0.5" />
+    <text x="1155" y="490" font-family="Arial, Helvetica, sans-serif" font-size="12"
+        font-weight="normal" fill="#333" text-anchor="start">Tired, Bored, Sad</text>
+    <rect x="1135" y="501" width="13" height="13" rx="2" fill="#D14B3C" stroke="#D14B3C"
+        stroke-width="0.5" />
+    <text x="1155" y="512" font-family="Arial, Helvetica, sans-serif" font-size="12"
+        font-weight="normal" fill="#333" text-anchor="start">Frustrated, Stressed, Anxious</text>
+    <rect x="1135" y="523" width="13" height="13" rx="2" fill="#E0A51E" stroke="#E0A51E"
+        stroke-width="0.5" />
+    <text x="1155" y="534" font-family="Arial, Helvetica, sans-serif" font-size="12"
+        font-weight="normal" fill="#333" text-anchor="start">Energised, Excited, Happy</text>
+    <rect x="1135" y="545" width="13" height="13" rx="2" fill="#3FA860" stroke="#3FA860"
+        stroke-width="0.5" />
+    <text x="1155" y="556" font-family="Arial, Helvetica, sans-serif" font-size="12"
+        font-weight="normal" fill="#333" text-anchor="start">Content, Relaxed, Calm</text>
+</svg>

@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="700" viewBox="0 0 960 700">
+    <rect x="0" y="0" width="960" height="700" rx="0" fill="#ffffff" stroke="#ffffff"
+        stroke-width="1.3" />
+    <text x="30" y="42" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold"
+        fill="#222" text-anchor="start">Wiring: how the cables connect</text>
+    <rect x="40" y="75" width="250" height="540" rx="10" fill="#E6F1FB" stroke="#185FA5"
+        stroke-width="1.5" />
+    <text x="165.0" y="108" font-family="Arial, Helvetica, sans-serif" font-size="15"
+        font-weight="bold" fill="#0C447C" text-anchor="middle">Arduino MKR WiFi 1010</text>
+    <text x="165.0" y="128" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#555" text-anchor="middle">(only the pins used)</text>
+    <text x="278" y="184.5" font-family="Arial, Helvetica, sans-serif" font-size="13.5"
+        font-weight="bold" fill="#0C447C" text-anchor="end">VCC (3.3V)</text>
+    <text x="278" y="254.5" font-family="Arial, Helvetica, sans-serif" font-size="13.5"
+        font-weight="bold" fill="#0C447C" text-anchor="end">A1</text>
+    <text x="278" y="364.5" font-family="Arial, Helvetica, sans-serif" font-size="13.5"
+        font-weight="bold" fill="#0C447C" text-anchor="end">D4</text>
+    <text x="278" y="464.5" font-family="Arial, Helvetica, sans-serif" font-size="13.5"
+        font-weight="bold" fill="#0C447C" text-anchor="end">11 (SDA)</text>
+    <text x="278" y="504.5" font-family="Arial, Helvetica, sans-serif" font-size="13.5"
+        font-weight="bold" fill="#0C447C" text-anchor="end">12 (SCL)</text>
+    <text x="278" y="574.5" font-family="Arial, Helvetica, sans-serif" font-size="13.5"
+        font-weight="bold" fill="#0C447C" text-anchor="end">GND</text>
+    <rect x="450" y="205" width="210" height="90" rx="8" fill="#ECE9FB" stroke="#3C3489"
+        stroke-width="1.3" />
+    <text x="555.0" y="243" font-family="Arial, Helvetica, sans-serif" font-size="14"
+        font-weight="bold" fill="#26215C" text-anchor="middle">Potentiometer</text>
+    <text x="555.0" y="263" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#3C3489" text-anchor="middle">B5K, linear</text>
+    <text x="458" y="254" font-family="Arial, Helvetica, sans-serif" font-size="11.5"
+        font-weight="normal" fill="#555" text-anchor="start">wiper</text>
+    <text x="652" y="229" font-family="Arial, Helvetica, sans-serif" font-size="11.5"
+        font-weight="normal" fill="#555" text-anchor="end">outer</text>
+    <text x="652" y="279" font-family="Arial, Helvetica, sans-serif" font-size="11.5"
+        font-weight="normal" fill="#555" text-anchor="end">outer</text>
+    <rect x="450" y="325" width="210" height="70" rx="8" fill="#E1F5EE" stroke="#085041"
+        stroke-width="1.3" />
+    <text x="555.0" y="356" font-family="Arial, Helvetica, sans-serif" font-size="14"
+        font-weight="bold" fill="#04342C" text-anchor="middle">Push button</text>
+    <text x="555.0" y="376" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#085041" text-anchor="middle">momentary</text>
+    <text x="458" y="364" font-family="Arial, Helvetica, sans-serif" font-size="11.5"
+        font-weight="normal" fill="#555" text-anchor="start">leg</text>
+    <text x="652" y="364" font-family="Arial, Helvetica, sans-serif" font-size="11.5"
+        font-weight="normal" fill="#555" text-anchor="end">leg</text>
+    <rect x="450" y="425" width="210" height="110" rx="8" fill="#FCEFD6" stroke="#633806"
+        stroke-width="1.3" />
+    <text x="555.0" y="472" font-family="Arial, Helvetica, sans-serif" font-size="14"
+        font-weight="bold" fill="#412402" text-anchor="middle">OLED</text>
+    <text x="555.0" y="492" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#633806" text-anchor="middle">I2C, 128 × 64</text>
+    <text x="458" y="464" font-family="Arial, Helvetica, sans-serif" font-size="11.5"
+        font-weight="normal" fill="#555" text-anchor="start">SDA</text>
+    <text x="458" y="504" font-family="Arial, Helvetica, sans-serif" font-size="11.5"
+        font-weight="normal" fill="#555" text-anchor="start">SCL</text>
+    <text x="652" y="454" font-family="Arial, Helvetica, sans-serif" font-size="11.5"
+        font-weight="normal" fill="#555" text-anchor="end">VCC</text>
+    <text x="652" y="514" font-family="Arial, Helvetica, sans-serif" font-size="11.5"
+        font-weight="normal" fill="#555" text-anchor="end">GND</text>
+    <rect x="835" y="270" width="10" height="305" rx="3" fill="#3a3a3a" />
+    <rect x="895" y="175" width="10" height="280" rx="3" fill="#D23A2F" />
+    <text x="900" y="163" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="bold" fill="#D23A2F" text-anchor="middle">+ 3.3V rail</text>
+    <text x="840" y="596" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="bold" fill="#222" text-anchor="middle">− GND rail</text>
+    <path d="M290 250 L450 250" fill="none" stroke="#7F5BD6" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M290 360 L450 360" fill="none" stroke="#1D9E75" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M290 460 L450 460" fill="none" stroke="#2F7FD6" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M290 500 L450 500" fill="none" stroke="#E08A1A" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M290 180 L900 180" fill="none" stroke="#D23A2F" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M290 570 L840 570" fill="none" stroke="#222222" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M660 225 L900 225" fill="none" stroke="#D23A2F" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M660 450 L829 450 A11 11 0 0 1 851 450 L900 450" fill="none" stroke="#D23A2F"
+        stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M660 275 L840 275" fill="none" stroke="#222222" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M660 360 L840 360" fill="none" stroke="#222222" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M660 510 L840 510" fill="none" stroke="#222222" stroke-width="3.2"
+        stroke-linecap="round" stroke-linejoin="round" />
+    <rect x="286" y="176" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="286" y="246" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="286" y="356" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="286" y="456" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="286" y="496" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="286" y="566" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="446" y="246" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="446" y="356" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="446" y="456" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="446" y="496" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="656" y="221" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="656" y="271" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="656" y="356" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="656" y="446" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <rect x="656" y="506" width="8" height="8" fill="#9a9a9a" stroke="#555" stroke-width="0.8" />
+    <circle cx="900" cy="180" r="5" fill="#D23A2F" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="900" cy="225" r="5" fill="#D23A2F" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="900" cy="450" r="5" fill="#D23A2F" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="840" cy="275" r="5" fill="#222222" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="840" cy="360" r="5" fill="#222222" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="840" cy="510" r="5" fill="#222222" stroke="#ffffff" stroke-width="1.5" />
+    <circle cx="840" cy="570" r="5" fill="#222222" stroke="#ffffff" stroke-width="1.5" />
+    <path d="M40 640 L68 640" fill="none" stroke="#D23A2F" stroke-width="4" stroke-linecap="round"
+        stroke-linejoin="round" />
+    <text x="76" y="644.5" font-family="Arial, Helvetica, sans-serif" font-size="13"
+        font-weight="normal" fill="#222" text-anchor="start">3.3V</text>
+    <path d="M140.4 640 L168.4 640" fill="none" stroke="#222222" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round" />
+    <text x="176.4" y="644.5" font-family="Arial, Helvetica, sans-serif" font-size="13"
+        font-weight="normal" fill="#222" text-anchor="start">GND</text>
+    <path d="M233.2 640 L261.2 640" fill="none" stroke="#7F5BD6" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round" />
+    <text x="269.2" y="644.5" font-family="Arial, Helvetica, sans-serif" font-size="13"
+        font-weight="normal" fill="#222" text-anchor="start">A1 (dial)</text>
+    <path d="M371.59999999999997 640 L399.59999999999997 640" fill="none" stroke="#1D9E75"
+        stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="407.59999999999997" y="644.5" font-family="Arial, Helvetica, sans-serif" font-size="13"
+        font-weight="normal" fill="#222" text-anchor="start">D4 (button)</text>
+    <path d="M525.1999999999999 640 L553.1999999999999 640" fill="none" stroke="#2F7FD6"
+        stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="561.1999999999999" y="644.5" font-family="Arial, Helvetica, sans-serif" font-size="13"
+        font-weight="normal" fill="#222" text-anchor="start">SDA</text>
+    <path d="M617.9999999999999 640 L645.9999999999999 640" fill="none" stroke="#E08A1A"
+        stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="653.9999999999999" y="644.5" font-family="Arial, Helvetica, sans-serif" font-size="13"
+        font-weight="normal" fill="#222" text-anchor="start">SCL</text>
+    <text x="40" y="676" font-family="Arial, Helvetica, sans-serif" font-size="12.5"
+        font-weight="normal" fill="#555" text-anchor="start">Dot = connection. Bump = wires cross
+        without connecting. OLED pin order varies, so follow the labels on your screen.</text>
+</svg>
