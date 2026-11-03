@@ -100,8 +100,8 @@ no resistor, because the code uses the board's internal pull-up.
 ### The box
 
 A fold-up cardboard box (9.5 × 9.5 × 4.5 cm) with an open bottom, so it lifts off to
-reach the wiring. The templates are in `docs/enclosure`: `box_net.pdf` and
-`mood_wheel.pdf` (print both at 100%).
+reach the wiring. The templates are in [`docs/enclosure`](docs/enclosure): [`box_net.pdf`](docs/enclosure/box_net.pdf) and
+[`mood_wheel.pdf`](docs/enclosure/mood_wheel.pdf) (print both at 100%).
 
 |                      Outside                      |                     Inside                      |
 | :-----------------------------------------------: | :---------------------------------------------: |
@@ -146,7 +146,7 @@ The main sketch is in `src/mood_dial`, split into tabs:
 ## Test scripts
 
 Built up one step at a time, so each part was proven before the next was added
-(see `/tests`):
+(see [`tests`](tests)):
 
 |  #  | Script                                                 | Proves                                  |
 | :-: | ------------------------------------------------------ | --------------------------------------- |
