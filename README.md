@@ -148,16 +148,16 @@ The main sketch is in `src/mood_dial`, split into tabs:
 Built up one step at a time, so each part was proven before the next was added
 (see `/tests`):
 
-|  #  | Script                                           | Proves                                  |
-| :-: | ------------------------------------------------ | --------------------------------------- |
-|  1  | [`dial_v1_raw`](tests/dial_v1_raw)               | the pot reads 0–4095                    |
-|  2  | [`dial_v2_mood`](tests/dial_v2_mood)             | the reading maps to 12 moods            |
-|  3  | [`dial_v3_oled`](tests/dial_v3_oled)             | the mood shows on the OLED              |
-|  4  | [`dial_v4_hysteresis`](tests/dial_v4_hysteresis) | boundaries don't flicker                |
-|  5  | [`button_v1_read`](tests/button_v1_read)         | the button reads pressed / not pressed  |
-|  6  | [`button_v2_count`](tests/button_v2_count)       | presses are counted cleanly (debounced) |
-|  7  | [`test7_mqtt_washes`](tests/test7_mqtt_washes)   | the full network path to Vespera works  |
-|  8  | [`test8_blade_finder`](tests/test8_blade_finder) | which LED number sits on which blade    |
+|  #  | Script                                                 | Proves                                  |
+| :-: | ------------------------------------------------------ | --------------------------------------- |
+|  1  | [`dial_v1_raw`](tests/dial/dial_v1_raw)               | the pot reads 0–4095                    |
+|  2  | [`dial_v2_mood`](tests/dial/dial_v2_mood)             | the reading maps to 12 moods            |
+|  3  | [`dial_v3_oled`](tests/dial/dial_v3_oled)             | the mood shows on the OLED              |
+|  4  | [`dial_v4_hysteresis`](tests/dial/dial_v4_hysteresis) | boundaries don't flicker                |
+|  5  | [`button_v1_read`](tests/button/button_v1_read)       | the button reads pressed / not pressed  |
+|  6  | [`button_v2_count`](tests/button/button_v2_count)     | presses are counted cleanly (debounced) |
+|  7  | [`mqtt_washes`](tests/vespera/mqtt_washes)            | the full network path to Vespera works  |
+|  8  | [`blade_finder`](tests/vespera/blade_finder)          | which LED number sits on which blade    |
 
 Results:
 
