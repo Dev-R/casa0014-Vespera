@@ -162,7 +162,8 @@ Built up one step at a time, so each part was proven before the next was added
 Results:
 
 - **Pot range:** about 8 to 4000, so every mood is reachable.
-- **Flicker:** [X] mood changes on a boundary without hysteresis, [Y] with it.
+- **Flicker:** with the knob held on a boundary, the mood kept flipping between the
+  two neighbours; with a 40-count dead band it stayed put.
 - **Debounce:** without it, one press sometimes counted twice; at 25 ms it was clean.
 
 ## Demo
